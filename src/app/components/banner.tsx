@@ -21,7 +21,7 @@ const Banner = () => {
 
   useEffect(() => {
     if (timeoutId.current) {
-      console.log("clearing timeout id: ", timeoutId.current);
+      //console.log("clearing timeout id: ", timeoutId.current);
       clearTimeout(timeoutId.current);
     }
     timeoutId.current = setTimeout(() => {
