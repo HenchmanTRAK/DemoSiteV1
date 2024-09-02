@@ -19,9 +19,9 @@ const Navbar = () => {
     <>
       <div
         id="header"
-        className="flex justify-center md:justify-between flex-col md:flex-row items-center md:px-5 md:py-5 container mx-auto max-w-screen-lg"
+        className="flex justify-center lg:justify-between flex-col lg:flex-row items-center lg:px-5 lg:py-5 container mx-auto max-w-screen-xl"
       >
-        <div id="logo_container" className="md:w-4/12 py-2 md:py-0">
+        <div id="logo_container" className="lg:w-4/12 py-2 lg:py-0">
           <Image
             src={
               //"https://images.squarespace-cdn.com/content/v1/57b557342994ca46e44c561c/1471503635867-J7URIOXOSUUY9BGVTC3O/HenchmanTRAK_BLUE.png"
@@ -31,12 +31,12 @@ const Navbar = () => {
             sizes="100vw"
             width={500}
             height={60}
-            className="md:h-auto h-24 w-full"
+            className="lg:h-auto h-24 w-full"
           />
         </div>
         <div
           id="header_controls_pc"
-          className="w-4/12 text-center hidden md:block"
+          className="w-4/12 text-center hidden lg:block"
         >
           <div className="flex w-full justify-between items-center">
             <Image
@@ -91,7 +91,7 @@ const Navbar = () => {
         </div>
         <div
           id="header_controls_mobile"
-          className="w-full px-4 py-3 md:hidden bg-neutral-100"
+          className="w-full px-4 py-3 lg:hidden bg-neutral-100"
         >
           <div className="table border-separate box-border">
             <input
@@ -120,9 +120,9 @@ const Navbar = () => {
       <div id="navbar">
         <nav
           id="navbar_pc"
-          className="bg-sky-500 hidden md:block items-center "
+          className="bg-sky-500 hidden lg:block items-center "
         >
-          <ul className="flex justify-between divide-x-2 divide-white border-solid border-x-2 border-x-white text-center container mx-auto max-w-screen-lg items-center">
+          <ul className="flex justify-between divide-x-2 divide-white border-solid border-x-2 border-x-white text-center container mx-auto max-w-screen-xl items-center">
             <li className="py-2.5 px-4 w-full align-middle">
               <FontAwesomeIcon
                 icon={faShoppingCart}
@@ -150,7 +150,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <nav id="navbar_mobile" className="md:hidden">
+        <nav id="navbar_mobile" className="lg:hidden">
           <ul className="flex justify-between divide-x-2 bg-neutral-800 divide-white border-solid border-x-2 border-x-white text-center container mx-auto max-w-screen-lg">
             <li className="py-1.5 px-3 w-full align-middle leading-normal text-xl">
               <FontAwesomeIcon

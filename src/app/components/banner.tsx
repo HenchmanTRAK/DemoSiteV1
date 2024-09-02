@@ -55,7 +55,7 @@ const Banner = () => {
   };
 
   return (
-    <div id="banner" className="relative my-5 w-full max-w-screen-lg mx-auto">
+    <div id="banner" className="relative my-5 px-5 w-full ">
       <div id="carousel" className={`w-full relative z-10`}>
         {Array.from({ length: 6 }, (v, k) => k + 1).map((num, index) => {
           return (

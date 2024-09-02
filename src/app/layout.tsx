@@ -26,7 +26,7 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="flex justify-center flex-col items-center w-screen bg-white">
+        <main className="flex justify-center flex-col items-center w-screen bg-[url('https://www.henchman.com.au/documents/background/wavegrid.jpg')] bg-white">
           {children}
         </main>
       </body>
