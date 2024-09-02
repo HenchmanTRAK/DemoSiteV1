@@ -6,7 +6,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
-import Navbar from "./components/navbar";
+import Navbar from "@/app/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className}`}>
         <header>
           <Navbar />
         </header>
-        {children}
+        <main className="flex justify-center flex-col items-center w-screen bg-white">
+          {children}
+        </main>
       </body>
     </html>
   );

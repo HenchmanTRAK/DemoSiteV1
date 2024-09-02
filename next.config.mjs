@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: 'www.henchman.com.au',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.henchmanusa.com',
+        port: '',
+      }
     ],
   },
 };
