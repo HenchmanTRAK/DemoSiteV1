@@ -23,10 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <header>
-          <Navbar />
-        </header>
-        <main className="flex justify-center flex-col items-center w-screen bg-[url('https://www.henchman.com.au/documents/background/wavegrid.jpg')] bg-white">
+        <Navbar />
+        <main className="flex justify-center flex-col items-center bg-[url('https://www.henchman.com.au/documents/background/wavegrid.jpg')] bg-white px-0 lg:px-5">
           {children}
         </main>
       </body>

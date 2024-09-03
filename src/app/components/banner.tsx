@@ -94,7 +94,7 @@ const Banner = () => {
       </div>
       <div
         id="banner_controls_left"
-        className={`z-20 w-[5%] text-center absolute top-1/2 mt-[-20px] ml-3 left-0  bottom-0 opacity-50 text-xl`}
+        className={`z-20 w-[5%] text-center absolute top-1/2 mt-[-20px] ml-6 left-0 bottom-0 opacity-50 text-xl`}
       >
         <Button onClick={() => clickLeft()}>
           <FontAwesomeIcon icon={faChevronLeft} className={`fa fa-2x`} />
@@ -102,7 +102,7 @@ const Banner = () => {
       </div>
       <div
         id="banner_controls_right"
-        className={`z-20 w-[5%] text-center absolute top-1/2 mt-[-20px] mr-3 left-auto right-0 bottom-0 opacity-50 text-xl`}
+        className={`z-20 w-[5%] text-center absolute top-1/2 mt-[-20px] mr-6 left-auto right-0 bottom-0 opacity-50 text-xl`}
       >
         {/* absolute w-[5%] h-full top-1/2 right-0  */}
         <Button onClick={() => clickRight()}>
